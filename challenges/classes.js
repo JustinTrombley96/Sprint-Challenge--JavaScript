@@ -19,7 +19,7 @@ class CuboidMaker {
       Formula for cuboid volume: length * width * height
     */
     volume() {
-        return `${this.length} * ${this.width} * ${this.height}`
+        return `${this.length}` * `${this.width}` * `${this.height}`
     };
 
     /* == Step 3: Surface Area Method ==
@@ -28,7 +28,8 @@ class CuboidMaker {
       Formula for cuboid surface area of a cube: 2 * (length * width + length * height + width * height)
     */
     surfaceArea() {
-        return `2 * (${this.length} * ${this.width} + ${this.length} * ${this.height} + ${this.width} * ${this.height})`
+        return 2 * (`${this.length}` * `${this.width}` + `${this.length}` * `${this.height}` + `${this.width}` * `${this.height}`)
+
     }
 };
 
