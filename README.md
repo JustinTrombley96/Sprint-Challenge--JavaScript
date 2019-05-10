@@ -35,13 +35,12 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. What is the difference between a function and a method?
 
-A method is a property as an object, while a function doesn't have to be.
+A method is a property of an object, while a function doesn't have to be.
 
 
 3. What is closure?
 
-A closure allows an inner function to have access to an outer function's variables.
-
+A closure allows an inner function to look outside of the scope to search for a variable being referenced in the outer scope.
 
 4. Describe the four rules of the 'this' keyword.
 
